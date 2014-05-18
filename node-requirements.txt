@@ -1,0 +1,4 @@
+protractor
+q
+minijasminenode
+chokidar

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <script src="bower_components/requirejs/require.js" data-main="index.js"></script>
+    <script src="config.js"></script>
+  </head>
+  <body>
+    <div id="app" style="margin: 60px">
+      <div>
+        <label>Name:</label>
+        <input type="text" ng-model="yourName" placeholder="Enter a name here">
+        <hr>
+        <h1>Hello {{yourName}}!</h1>
+
+        <div ng-bind="slideValue"></div>
+
+        <slider model="slideValue" type="text" class="span2" value=""
+                data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="[0,60]"
+                data-slider-orientation="horizontal" data-slider-selection="after" data-slider-tooltip="show"></slider>
+      </div>
+    </div>
+  </body>
+</html>
