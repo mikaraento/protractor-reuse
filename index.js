@@ -1,4 +1,4 @@
-define(['angular'], function(angular, $, bootstrap_slider) {
+define(['angular'], function(angular) {
 
 var app = angular.module('bower-helloworld', []);
 
